@@ -6,8 +6,33 @@
     padding-top: 20px;
 }
 .jumbotron-2{
-    background-image: url("./assets/bitmap.png");
+    /* background-image: url("./assets/bitmap.png"); */
     /* height: 100px; */
+}
+.jumbotron-3{
+
+}
+.jumbotron-4{
+    margin-top: 30px;
+}
+.jumbotron-5{
+    margin-top: 40px;
+}
+.jumbotron-6{
+    margin-top: 30px;
+    width: 100%;
+    background-image: url('assets/pink.png');
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer{
+    background: #333333;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 .jumbo1-content{
     width: 100%;
@@ -15,6 +40,14 @@
 .jumbotron-3-title{
     margin-top : 50px;
     line-height: 150%;
+}
+
+.socmed{
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 /* ---- */
 
@@ -32,6 +65,28 @@
 }
 .ta-justify{
     text-align: justify;
+}
+.top-10px{
+    margin-top: 10px;
+}
+.top-20px{
+    margin-top: 20px;
+}
+.top-30px{
+    margin-top: 30px;
+}
+.left-30px{
+    margin-left: 30px;
+}
+.left-80px{
+    margin-left: 80px;
+}
+.left-100px{
+    margin-left: 100px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 /* ----------- */
 
@@ -61,6 +116,9 @@
 .width-60{
     margin-left: 20%;
     margin-right: 20%;
+}.width-50{
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .width-40{
     margin-left: 30%;
@@ -76,13 +134,50 @@
     margin: 0 auto;
 }
 .hr-red{
-    border-top: 10px solid red;
+    border-top: 10px solid #ff3333;
     width: 100%;
-
+}
+.button-apply{
+    background-color: transparent; /* Green */
+    border: 5px solid white;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+.button-apply:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+.copyright{
+    margin-top: 30px;
+    color: white;
 }
 /* h1{
     margin: 0 auto;
 } */
+
+.home-logo{
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.wrapper {
+  position: absolute;
+  left: 46%;
+}
+
+ul{
+    list-style: none;
+}
 .image-responsive{
     width: 100%;
     max-height: 400px;
@@ -91,10 +186,118 @@
     width: 100%;
     max-height: 200px;
 } */
+.looking-for{
+    width: 300px;
+}
 /* ------ */
+
+/* BACKGROUND-COLOR */
+.bg-red{
+    background-color: #ff3333;
+}
+.bg-gray{
+    background-color: gray; 
+}
+/* ---------------- */
+
+/* COLOR */
+.c-red{
+    color: #ff3333;
+}
+.c-black{
+    color: black;
+}
+.c-white{
+    color: #fff;
+}
+/* ---------------- */
+
+/* FONT-SIZE */
+.fs-20{
+    font-size: 20px;
+}
+/* --------- */
+
+
+
+/* FONT-STYLE */
+.comic-sans{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.chicle{
+    font-family: 'Chicle';   
+}
+.asul{
+    font-family: 'Asul';
+}
+/* ---------- */
+
+
+
+
+/* JSSOR slider */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 057 css*/
+.jssorb057 .i {position:absolute;cursor:pointer;}
+.jssorb057 .i .b {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.4;}
+.jssorb057 .i:hover .b {stroke-opacity:.7;}
+.jssorb057 .iav .b {stroke-opacity: 1;}
+.jssorb057 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 073 css*/
+.jssora073 {display:block;position:absolute;cursor:pointer;}
+.jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
+.jssora073:hover {opacity:.8;}
+.jssora073.jssora073dn {opacity:.4;}
+.jssora073.jssora073ds {opacity:.3;pointer-events:none;}
+
+
+
+
+
+.tablet-width{
+    
+}
 
 
 
 /* MOBILE WIDTH */
-@media only screen and (max-width:)
+@media only screen and (max-width:768px){
+    .mobile-fs-16px{
+        font-size: 16px;
+    }
+    .mobile-width{
+        width:100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .mobile-left-0px{
+        margin-left: 0px;
+    }
+    .mobile-width-90{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .mobile-justify{
+        text-align: justify;
+    }
+    .wrapper {
+        position: absolute;
+        left: 36%;
+      }
+    .mobile-none{
+        display: none;
+    }
+}
 /*  */
